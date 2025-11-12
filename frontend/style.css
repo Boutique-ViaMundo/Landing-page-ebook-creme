@@ -675,11 +675,14 @@ html, body {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 8px 20px rgba(255,255,255,0.15);
+    text-decoration: none; 
 }
 
 .faq-whatsapp:hover {
   transform: translateY(-3px);
   box-shadow: 0 12px 30px rgba(255,255,255,0.25);
+    text-decoration: none;
+
 }
 
 .faq-whatsapp img {
@@ -1327,4 +1330,16 @@ a.hotmart-fb.hotmart__button-checkout.btn-cta:hover {
   background-color: #d97706 !important;
   transform: scale(1.03) !important;
   color: #fff !important;
+}
+
+.btn-instagram {
+  color: #dd6f84; /* rosa da paleta */
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.btn-instagram:hover {
+  color: #e7462c; /* tom mais intenso no hover */
+  text-decoration: underline;
 }
